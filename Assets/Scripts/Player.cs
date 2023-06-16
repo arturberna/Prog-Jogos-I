@@ -5,7 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public float velocidade = 2.5f;
-    public float aceleracao;
+    public float aceleracao = 0.0f;
     public string nome = "Avião Azul";
 
     // Função chamada quando o jogo inicia
